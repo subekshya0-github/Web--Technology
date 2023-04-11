@@ -1,0 +1,35 @@
+.parent{
+    height: 1000vh;
+    background-color: brown;
+    width: 50%;
+    border: 5px dashed blue;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border: 1px dotted yellow;
+}
+.box1{
+    background-color: violet;
+    position: static;
+}
+.box2{
+    background-color: lightseagreen;
+    position: relative;
+    left:20px;
+    
+}
+.box3{
+    background-color: deeppink;
+    position: absolute;
+    left: 20px;
+    
+}
+.box4{
+    background-color: peru;
+    position:fixed;
+}
+.box5{
+    background-color: darkorange;
+    position: sticky;
+}
