@@ -1,0 +1,102 @@
+img{
+    width: 500px;
+    height: auto;
+}
+.parent{
+width: 100%;
+}
+.son{
+width: 100%;
+float: left;
+}
+.daughter{
+width: 100%;
+float: right;
+}
+h1{
+background-color: blue;
+   color: brown;
+   font-size:30px;
+   font-family: 'Courier New', Courier, monospace;
+   text-transform: uppercase;
+   word-spacing : 7px;
+   letter-spacing: 3px;
+   text-align: center;
+ }
+ p{
+    background-color: rgb(152, 156, 153);
+   color: brown;
+   font-size: medium;
+   font-family: 'Courier New', Courier, monospace;
+   text-transform: uppercase;
+   word-spacing : 6px;
+   letter-spacing: 3px;
+   text-align: left;
+ }
+/*mobile device*/
+@media (min-width:320px) and (max-width:480px){
+    h1{
+        background-color: blueviolet;
+        color: blue;
+        text-align: center;
+    }
+}
+.son p{
+    width: 100%;
+}
+.daughter{
+    width: 100%;
+}
+.son p{
+    width: 100%;
+
+}
+.daughter img{
+    width: 100%;
+    height: auto;
+} 
+/*table devices*/
+@media (min-width:481px) and (max-width:768px){
+    h1{
+        background-color: rgb(43, 195, 226);
+        color: rgb(0, 255, 34);
+        text-align: center;
+    }
+}
+.son p{
+    width: 100%;
+}
+.daughter{
+    width: 100%;
+}
+.son p{
+    width: 100%;
+
+}
+.daughter img{
+    width: 100%;
+    height: auto;
+
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    h1{
+        background-color: rgb(43, 226, 205);
+        color: rgb(255, 0, 38);
+        text-align: center;
+    }
+}
+.son p{
+    width: 100%;
+}
+.daughter{
+    width: 100%;
+}
+.son p{
+    width: 100%;
+
+}
+.daughter img{
+    width: 100%;
+    height: auto;  
+}

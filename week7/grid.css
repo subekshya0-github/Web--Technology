@@ -1,0 +1,27 @@
+.grid{
+    width: 100%;
+    border: 1px sandybrown;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:250px 250px ;
+    grid-row: 10px;
+    grid-column-gap: 10px;
+}
+.box1{
+    background-color: chartreuse;
+}
+.box2{
+    background-color: rgb(21, 0, 255);
+} 
+.box3{
+    background-color: darkslateblue;
+}
+.box4{
+    background-color: darkred;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color:yellow
+}
